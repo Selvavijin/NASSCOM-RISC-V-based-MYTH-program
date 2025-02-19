@@ -46,8 +46,8 @@ My screenshot
 
 ![image](https://github.com/user-attachments/assets/050dc6df-9e83-4764-80bc-9600b7563738)
 
-Inverter
-![image](https://github.com/user-attachments/assets/f4b7813c-0f8d-49f7-ace0-d81e3e850485)
+Inverter 
+![image](https://github.com/user-attachments/assets/4bb1ab04-1940-496d-ac23-d257b06d8923)
 
 2-input AND gate
 ![image](https://github.com/user-attachments/assets/8d986b11-e539-4588-9f16-bff907490983)
