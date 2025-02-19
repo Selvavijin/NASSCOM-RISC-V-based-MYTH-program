@@ -37,4 +37,11 @@ The below shown is the ternary operator.
 
 ![image](https://github.com/user-attachments/assets/8cc9c257-7929-4fdf-8a37-093b715faeb2)
 
+RV_D3SK1_L3_Labs For Combinational Logic
+
+![image](https://github.com/user-attachments/assets/4335a59c-e991-4baa-8bfe-0a7a3448547d)
+
+My screenshot
+![image](https://github.com/user-attachments/assets/677e5b2e-4310-4d13-b51e-ea0d07ae8c8d)
+
 
