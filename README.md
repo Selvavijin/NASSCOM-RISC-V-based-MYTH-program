@@ -128,3 +128,7 @@ RV_D3SK3_L3_Lab On Error Conditions Within Computation Pipeline
 
 RV_D3SK3_L4_Lab On 2-Cycle Calculator
 
+![image](https://github.com/user-attachments/assets/1d2a08a0-d402-4b19-b7bd-dfe39ffcd385)
+
+![image](https://github.com/user-attachments/assets/9ecb2d23-95fd-49f7-9c4e-5bce03fa8362)
+
