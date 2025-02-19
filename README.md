@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5f8a6bbf-8dbb-44d1-8138-a8bf7776725c)# NASSCOM-RISC-V-based-MYTH-program
+![image](https://github.com/user-attachments/assets/c6b23727-d031-4095-a919-5ef617094ffb)![image](https://github.com/user-attachments/assets/5f8a6bbf-8dbb-44d1-8138-a8bf7776725c)# NASSCOM-RISC-V-based-MYTH-program
 
 RV Day 3 - Digital Logic with TL-Verilog and Makerchip  
 RV-D3SK1 - Combinational logic in TL-Verilog using Makerchip  
@@ -117,4 +117,14 @@ If we look into the unpiplined form, we take the example, for aa the value is 9 
 Now let us see the pipelined version, here, at the same clock pulse, aa is 9 and bb is c. But the output cc=0f is assigned after 2 clock pulses.
 
 ![image](https://github.com/user-attachments/assets/d2fc0adc-426f-4bac-a51d-d3066d6c4ad7)
+
+RV_D3SK3_L3_Lab On Error Conditions Within Computation Pipeline
+
+![image](https://github.com/user-attachments/assets/43371772-5f8b-4505-b021-b3503dde213b)
+
+![image](https://github.com/user-attachments/assets/578f1103-1a01-401e-9853-bb8b622e3361)
+
+![image](https://github.com/user-attachments/assets/36d913b5-2a2b-4bd9-982c-ed52bc0b6f2e)
+
+RV_D3SK3_L4_Lab On 2-Cycle Calculator
 
