@@ -44,4 +44,39 @@ RV_D3SK1_L3_Labs For Combinational Logic
 My screenshot
 ![image](https://github.com/user-attachments/assets/677e5b2e-4310-4d13-b51e-ea0d07ae8c8d)
 
+![image](https://github.com/user-attachments/assets/050dc6df-9e83-4764-80bc-9600b7563738)
+
+Inverter
+![image](https://github.com/user-attachments/assets/f4b7813c-0f8d-49f7-ace0-d81e3e850485)
+
+2-input AND gate
+![image](https://github.com/user-attachments/assets/8d986b11-e539-4588-9f16-bff907490983)
+
+![image](https://github.com/user-attachments/assets/65a2fa62-4825-4c20-bd83-a54f78928237)
+
+2 to 1 mux
+![image](https://github.com/user-attachments/assets/2eb06350-7d5c-42ae-a3aa-f46bfea326d3)
+
+![image](https://github.com/user-attachments/assets/86038b54-13fd-4621-b8e8-75d559ee36cc)
+
+RV-D3SK2 - Sequential logic  
+RV_D3SK2_L1_Introduction To Sequential Logic And Counter Lab  
+
+![image](https://github.com/user-attachments/assets/aceefa97-96e1-4cd2-89ec-9e5471c63cac)
+
+![image](https://github.com/user-attachments/assets/10c53800-8e8f-4c01-83fa-74451c971a81)
+
+![image](https://github.com/user-attachments/assets/da79e022-277a-404c-94dc-367e6da8795e)
+
+![image](https://github.com/user-attachments/assets/a538cb3a-db27-446e-bd3e-2fc0cba0a8a1)
+
+My fibnacci series
+![image](https://github.com/user-attachments/assets/defb5df2-0dba-4bf8-86d6-bb3fde258efe)
+
+RV_D3SK2_L2_Sequential Calculator Lab
+
+![image](https://github.com/user-attachments/assets/6be9c0fc-cd7c-444e-9c38-3267a25cd1c0)
+
+![image](https://github.com/user-attachments/assets/926245cb-3950-4a7e-b3c2-4e1397fa3fa2)
+
 
