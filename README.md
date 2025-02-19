@@ -84,3 +84,37 @@ RV_D3SK3_L1_Pipelined Logic And Re-Timing
 
 ![image](https://github.com/user-attachments/assets/944e010a-2443-48b7-b0ff-b57d90607685)
 
+![image](https://github.com/user-attachments/assets/8b141a0a-5ee0-47d4-8c29-96ad3951fb38)
+
+![image](https://github.com/user-attachments/assets/8427d262-62ef-48d4-9893-0441bca30f4f)
+
+The same code is given in both system verilog and TL verilog. We can observe the code reduction here.
+
+![image](https://github.com/user-attachments/assets/b3e5d2b9-479b-4978-8c66-27856bfb8a26)
+
+Suppose we have to send the signals from one end of the die to other end, we can use pipelines like this. Here we have done Retiming and it looks pretty simple.
+
+![image](https://github.com/user-attachments/assets/6e044f79-47b0-4895-af5c-dd871cdc4c8e)
+
+Below code is shown for retiming in SV which seems complex than TL.
+
+![image](https://github.com/user-attachments/assets/582a01ee-fd0d-43a4-897d-ee2486290f2e)
+
+My work
+![image](https://github.com/user-attachments/assets/a4a4c8d5-5f2b-4cb8-b668-6112ac0e18eb)
+![image](https://github.com/user-attachments/assets/31723a5f-25c0-41ac-9520-f15135f1a6ab)
+
+RV_D3SK3_L2_Pipeline Logic Advantages And Demo In Platform
+
+By using pipelining, we can use the high frequency clock.
+
+![image](https://github.com/user-attachments/assets/cde5a8b4-fed8-4001-be3a-41f1d0839008)
+
+If we look into the unpiplined form, we take the example, for aa the value is 9 and for bb, the value is c and for cc, the value if 0f, which are in hexadecimal form and obtained at the same clock pulse.
+
+![image](https://github.com/user-attachments/assets/04ab811d-b37b-4b7a-bb5b-634794a5528c)
+
+Now let us see the pipelined version, here, at the same clock pulse, aa is 9 and bb is c. But the output cc=0f is assigned after 2 clock pulses.
+
+![image](https://github.com/user-attachments/assets/d2fc0adc-426f-4bac-a51d-d3066d6c4ad7)
+
