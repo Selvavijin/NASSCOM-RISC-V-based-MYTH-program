@@ -79,4 +79,8 @@ RV_D3SK2_L2_Sequential Calculator Lab
 
 ![image](https://github.com/user-attachments/assets/926245cb-3950-4a7e-b3c2-4e1397fa3fa2)
 
+RV-D3SK3 - Pipelined logic
+RV_D3SK3_L1_Pipelined Logic And Re-Timing
+
+![image](https://github.com/user-attachments/assets/944e010a-2443-48b7-b0ff-b57d90607685)
 
