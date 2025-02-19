@@ -50,14 +50,17 @@ Inverter
 ![image](https://github.com/user-attachments/assets/4bb1ab04-1940-496d-ac23-d257b06d8923)
 
 2-input AND gate
-![image](https://github.com/user-attachments/assets/8d986b11-e539-4588-9f16-bff907490983)
+![image](https://github.com/user-attachments/assets/13408781-07be-43fc-b009-e0fd37f62947)
 
 ![image](https://github.com/user-attachments/assets/65a2fa62-4825-4c20-bd83-a54f78928237)
 
 2 to 1 mux
-![image](https://github.com/user-attachments/assets/2eb06350-7d5c-42ae-a3aa-f46bfea326d3)
+![image](https://github.com/user-attachments/assets/62741aa8-8eda-4b7a-9995-3e24fda6f990)
 
 ![image](https://github.com/user-attachments/assets/86038b54-13fd-4621-b8e8-75d559ee36cc)
+
+My work
+![image](https://github.com/user-attachments/assets/689955ea-00bb-45b3-9037-29e1fd513c0b)
 
 RV-D3SK2 - Sequential logic  
 RV_D3SK2_L1_Introduction To Sequential Logic And Counter Lab  
