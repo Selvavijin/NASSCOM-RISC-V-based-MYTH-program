@@ -90,6 +90,64 @@ What does 'addi' will do?. it will add the source register and 'imm' and store i
 
 ![image](https://github.com/user-attachments/assets/6ac0a0e3-e2af-4341-8be1-3d59ac38dd98)
 
+My work
+![image](https://github.com/user-attachments/assets/ef5783f0-6ef2-4415-9fa1-ae767c4fe23c)
+
+RV-D1SK3 - Integer number representation  
+RV_D1SK3_L1_64-bit Number System For Unsigned Numbers  
+
+![image](https://github.com/user-attachments/assets/5ace8c4f-987b-41b7-9992-2e8ff73cad9e)
+
+4 bytes forms a word. 8 bytes(2 words) forms a double word. 32-bit data is a word, 64-bit data is a double word. These are about the unsigned positive numbers.
+
+![image](https://github.com/user-attachments/assets/fb60d272-76db-439e-a029-df08b7e76e8f)
+
+![image](https://github.com/user-attachments/assets/28b268f3-f6de-4183-b861-d60a5452de41)
+
+![image](https://github.com/user-attachments/assets/e5cc2c21-0a2e-4a12-aa7a-77b2b78242d9)
+
+![image](https://github.com/user-attachments/assets/3a16e415-e844-44c7-a870-fbc974d92d5c)
+
+![image](https://github.com/user-attachments/assets/3b4052ca-b736-4038-a4de-80eb3c2cd704)
+
+RV_D1SK3_L2_64-bit Number System For Signed Numbers
+
+![image](https://github.com/user-attachments/assets/6f54cfb2-2ce0-49e2-ac0d-9974e801b862)
+
+![image](https://github.com/user-attachments/assets/67771e46-f575-46b0-811a-04aa318cf176)
+
+![image](https://github.com/user-attachments/assets/52065919-48d4-4843-b004-30a76ee1351c)
+
+From this we observe that, the MSBs which have 0s are positive numbers and which have 1s are negative numbers. If we have 1 at the MSB, again we can do the inverse and add 1 to get the original number. These are called signed numbers.
+
+![image](https://github.com/user-attachments/assets/17d0defc-fce1-4ca7-909b-bb12f19c1b6a)
+
+![image](https://github.com/user-attachments/assets/2b5307d0-0e23-4880-92e8-86e6b9320ded)
+
+Now let us see the range of positive and negative that can be represented using rv64 hardware. The number of positive numbers that can be represented is,
+
+![image](https://github.com/user-attachments/assets/ed17cc57-b35a-4ef3-a100-cc7d55417b1d)
+
+![image](https://github.com/user-attachments/assets/808bda60-1f1a-4cfc-afa2-ed10606ffb1f)
+
+These are the important notes with respect to the integers.
+
+![image](https://github.com/user-attachments/assets/eadd3e93-e53f-4687-b672-c22bf569c399)
+
+Instructions which operate on these kind of numbers are called Base integer instructions.
+
+![image](https://github.com/user-attachments/assets/64cc35e5-8c58-410f-ad5c-23c3bf14bc99)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
