@@ -162,3 +162,16 @@ RV_D3SK4_L4_Lab on 2-cycle Calculator with Validity
 
 ![image](https://github.com/user-attachments/assets/66d18b60-cb00-4d63-a938-6b52c388cdc0)
 
+RV_D3SK4_L5_Calulator Single Value Memory Lab
+
+![image](https://github.com/user-attachments/assets/66005591-b4cd-44bd-8a37-387e2384b409)
+
+RV Day 3 Wrap-up  
+(Bonus) RV_D3SK5_L1_Introduction To Hierarchy Concept  
+
+![image](https://github.com/user-attachments/assets/e238322d-12b5-40a2-bd40-107bdacd9227)
+
+![image](https://github.com/user-attachments/assets/fb901476-6e7e-45dd-b7f7-ee37e4d8ec08)
+
+![image](https://github.com/user-attachments/assets/3c632bf1-7c92-428c-9960-592be1e4f627)
+
