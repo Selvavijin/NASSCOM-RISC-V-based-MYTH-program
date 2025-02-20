@@ -62,11 +62,34 @@ So, we will change the code to show less
 
 ![image](https://github.com/user-attachments/assets/dd530696-8be5-46ce-b30e-35e5ad1db2a8)
 
-There are many things shown. But, we are interested in the 'main' section, so type '/main' and click 'n'. Here, the address of the 'main' is 10184 and there are 15 instructions inside the 'main' when we use the option '-o1' in the command. If we wish to count the instructions without counting one by one, subtract 101c0 and 10184 and divide the resultant by 4. Because, If we look into the instructions, it increment by 4.
+There are many things shown. But, we are interested in the 'main' section, so type '/main' and click 'n'. Here, the address of the 'main' is 10184(in video) and there are 15 instructions inside the 'main' when we use the option '-o1' in the command. If we wish to count the instructions without counting one by one, subtract 101c0 and 10184 and divide the resultant by 4. Because, If we look into the instructions, it increment by 4.
 
 ![image](https://github.com/user-attachments/assets/6f43dcf5-2c03-4903-a0c5-5eedee9f19fa)
 
 Now we are running the same command by replacing '-o1' by '-ofast'. Now the number of instructions will be higher or lesser.
+
+RV_D1SK2_L3_Spike Simulation And Debug
+
+We use './a.out' to get the output in 'c'. Now we will see what command to use to get the output in riscv. The command is 'spike pk sum1ton.o'. Now let us debug it using the command 'spike -d pk sum1ton.o'.   
+pc->program counter  
+We want our program to run till above the main and after that we will debug manually. To run till above the main we use the command 'until pc 0 address_of_main'. In this case(in video) it is, 'until pc 0 100b0'.  To find the contents of 'a2', we use the command 'reg 0 a2'. If we press enter, next instruction will run. And again if we run 'reg 0 a2', it gets modified. 'lui' means load upper intermediate which means, the data present in the right side of the instruction is loaded to the left side register from 12 to 31 bits.
+
+![image](https://github.com/user-attachments/assets/dd47723d-9bd3-4cad-828d-5c64144aa7c0)
+
+![image](https://github.com/user-attachments/assets/dd5c650a-7f45-4cdc-a996-b9c304bbaf08)
+
+Here we are interested to know what is the value of 'sp' before running that instruction. So we quit it run from the beginning.
+
+![image](https://github.com/user-attachments/assets/04b3d308-cc9b-4133-9d6e-e3ffb4edca13)
+
+When we do that, 10 is subtracted from the value as shown below.
+
+![image](https://github.com/user-attachments/assets/d3304945-53f6-4cdf-8a47-6403cc83f5ae)
+
+What does 'addi' will do?. it will add the source register and 'imm' and store it in the destination register.
+
+![image](https://github.com/user-attachments/assets/6ac0a0e3-e2af-4341-8be1-3d59ac38dd98)
+
 
 
 
