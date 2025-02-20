@@ -135,3 +135,30 @@ RV_D3SK3_L4_Lab On 2-Cycle Calculator
 
 ![image](https://github.com/user-attachments/assets/9ecb2d23-95fd-49f7-9c4e-5bce03fa8362)
 
+RV-D3SK4 - Validity  
+RV_D3SK4_L1_Introduction To Validity And Its Advantages  
+
+Validity concept is not exist in RTL languages. Here, '?' means 'when', so '?$valid' means, when valid.
+
+![image](https://github.com/user-attachments/assets/c7457a78-e3fd-4c13-a500-2fc7e2378c60)
+
+![image](https://github.com/user-attachments/assets/0b5f9ca9-68e0-4d59-8a65-005de93bdf6b)
+
+RV_D3SK4_L2_Lab On Validity And Valid When Condition
+
+When the new distance is not valid, the previous distance will be holded. When the new distance is valid, it will get added to the existing distance.
+
+![image](https://github.com/user-attachments/assets/7b65ac51-0568-4577-8abf-dac17d6d7d90)
+
+![image](https://github.com/user-attachments/assets/2150fffc-f47c-4ab1-aea2-bd6b2a04ab59)
+
+RV_D3SK4_L3_Lab To Compute Total Distance
+
+![image](https://github.com/user-attachments/assets/210ab804-b546-45e6-ae55-340e47bfe037)
+
+![image](https://github.com/user-attachments/assets/5a49158a-8ce2-4061-9b8f-a6ea04b2b4a4)
+
+RV_D3SK4_L4_Lab on 2-cycle Calculator with Validity
+
+![image](https://github.com/user-attachments/assets/66d18b60-cb00-4d63-a938-6b52c388cdc0)
+
