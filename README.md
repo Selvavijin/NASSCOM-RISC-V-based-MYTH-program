@@ -1,4 +1,74 @@
-![image](https://github.com/user-attachments/assets/c6b23727-d031-4095-a919-5ef617094ffb)![image](https://github.com/user-attachments/assets/5f8a6bbf-8dbb-44d1-8138-a8bf7776725c)# NASSCOM-RISC-V-based-MYTH-program
+# NASSCOM-RISC-V-based-MYTH-program
+RV Day 1 - Introduction to RISC-V ISA and GNU compiler toolchain  
+RV-D1SK1 - Introduction to RISC-V basic keywords  
+RV_D1SK1_L1_Introduction  
+
+In the right side we have the layout of the entire chip present in our laptop. In the left side, we have a 'C' code. To pass this code to the layout, there are certain flows. The C code is first converted into assembly language(riscv here), then it is converted to binary language. And this will sent to the layout and we get the required output. There is another interface that should be present in between the riscv architecture and the layout is HDL.
+
+![image](https://github.com/user-attachments/assets/41f357e0-1ef4-4179-a2b8-b4872ea530e4)
+
+RV_D1SK1_L2_From Apps To Hardware
+
+RV_D1SK1_L3_Detailed Description Of Course Content
+
+This is the simple C program performing addition, multiplication and division.
+
+![image](https://github.com/user-attachments/assets/b0db44d9-6d11-4d82-b3bd-d7221dca6506)
+
+when it enters into the compiler, the instruction set will be looking like,
+
+![image](https://github.com/user-attachments/assets/d90b4493-3c36-4038-9b27-c88200cd730a)
+
+The instructions other than pseudo instructions will act on integer numbers.
+
+![image](https://github.com/user-attachments/assets/6cc43153-e978-4d56-ad20-61102b923444)
+
+If any CPU core has both the integer instructions and multiply extension, they are called as 'RV64IM' cpu core.
+
+![image](https://github.com/user-attachments/assets/f190a6bb-42e4-4773-af56-b16bc77a75e3)
+
+This is the simple C program performing floating point addition, multiplication and division.
+
+![image](https://github.com/user-attachments/assets/2f3312d8-18eb-4b74-87ed-8bda0f0b7b80)
+
+This is the instruction set of the above code. F-> single precision, D->Double precision.
+
+![image](https://github.com/user-attachments/assets/684d777f-039e-47fb-ad5f-da850ff9a823)
+
+If a cpu core executes integer, multiplication and floating operations, it is called as 'RV63IMFD' cpu core.
+
+![image](https://github.com/user-attachments/assets/ae9dfa45-9964-4532-9f08-6b7fbb035e64)
+
+In the below codes, some data transfer happening between the memory and the stack pointer.
+
+![image](https://github.com/user-attachments/assets/2ff36c7b-1b18-4aaf-974b-255d793c673e)
+
+Also we will be looking into 64 bit representation of the signed and unsigned integer and lets start with this. 
+
+RV-D1SK2 - Labwork for RISC-V software toolchain  
+RV_D1SK2_L1_C Program To Compute Sum From 1 to N  
+
+![image](https://github.com/user-attachments/assets/29ca2079-d98f-448f-978e-0da78f3adfdd)
+
+RV_D1SK2_L2_RISCV GCC compile And Disassemble
+
+We will try to see the assemble code of the C program that we wrote. When we type this command, it will give a bunch of assembly codes.
+
+![image](https://github.com/user-attachments/assets/e329df34-09c3-4b0d-83e3-e3a7ba58bb06)
+
+So, we will change the code to show less
+
+![image](https://github.com/user-attachments/assets/28a14faf-032a-492a-973d-bee81cf51084)
+
+![image](https://github.com/user-attachments/assets/dd530696-8be5-46ce-b30e-35e5ad1db2a8)
+
+There are many things shown. But, we are interested in the 'main' section, so type '/main' and click 'n'. Here, the address of the 'main' is 10184 and there are 15 instructions inside the 'main' when we use the option '-o1' in the command. If we wish to count the instructions without counting one by one, subtract 101c0 and 10184 and divide the resultant by 4. Because, If we look into the instructions, it increment by 4.
+
+![image](https://github.com/user-attachments/assets/6f43dcf5-2c03-4903-a0c5-5eedee9f19fa)
+
+Now we are running the same command by replacing '-o1' by '-ofast'. Now the number of instructions will be higher or lesser.
+
+
 
 RV Day 3 - Digital Logic with TL-Verilog and Makerchip  
 RV-D3SK1 - Combinational logic in TL-Verilog using Makerchip  
