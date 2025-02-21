@@ -278,6 +278,67 @@ RV_D2SK2_L3_Simulate New C Program With Function Call
 RV-D2SK3 - Basic verification flow using iverilog  
 RV_D2SK3_L1_Lab To Run C-Program On RISC-V CPU  
 
+Till we did the simulation. Next we will see how to run the same c program on a riscv cpu. We load the hex file of the c program to memory. We read the memory through the riscv cpu. The cpu will process the hex file and give the desired output.
+
+![image](https://github.com/user-attachments/assets/eaef3b28-96e3-4459-b1bb-a74c4754fcc4)
+
+The below shown is the riscv cpu that was written in verilog and testbench is also available which is shown below. Here is shown the way to read the hex file into the memory.
+
+![image](https://github.com/user-attachments/assets/6045c197-b9d9-4c99-bae2-5531ab5f8a37)
+
+Now let us see the standard scripts on how to create the hex files. It can found using the command 'rv32im.sh'. Here the scripts to convert to hex files, load it to the memory of the riscv, those steps are given. Finally we will get the hex files. Then we use a tool called iverilog and it will take the picorv32.v and testbench.v as the inputs and testbench.vvp file as the output.
+
+![image](https://github.com/user-attachments/assets/4ce0947b-93fa-4edb-b3db-deca37b9aeef)
+
+Then we run run the entire script using the command shown below and generate the hex file.
+
+![image](https://github.com/user-attachments/assets/9ee08d58-c7bc-432f-9fef-5ce583701655)
+
+Here is the hex file which is machine understandable.
+
+![image](https://github.com/user-attachments/assets/561e7d53-4b97-4bd4-96c4-8ab896ed26bd)
+
+This bitstream is loaded into the firmware.hex and firmware32.hex
+
+![image](https://github.com/user-attachments/assets/121e6320-c0e3-40c0-ad3a-2df97ea4e90b)
+
+![image](https://github.com/user-attachments/assets/075ec7b6-0c6f-4833-b605-6e7993a5d158)
+
+It is loaded into the memory through the testbench.v.
+
+![image](https://github.com/user-attachments/assets/cf9ae97e-e365-4e06-a069-cac0542e7809)
+
+Finally we get the expected output which is highlighted below.
+
+![image](https://github.com/user-attachments/assets/93af5da4-7c12-4a70-b2f4-1ef5be7c34a1)
+
+![image](https://github.com/user-attachments/assets/a2113735-6c17-44e5-bdd8-45dd8c169e69)
+
+My works
+![image](https://github.com/user-attachments/assets/17b80e30-4422-45b0-8b36-54ea89a2ddf2)
+
+picorv32.v
+![image](https://github.com/user-attachments/assets/6d19107e-6cbf-4940-834b-0789285be78f)
+
+testbench.v
+![image](https://github.com/user-attachments/assets/13c26c7e-a102-4fe2-b171-952cbeda7e88)
+
+rv32im.sh
+![image](https://github.com/user-attachments/assets/db951af5-0818-4f9e-be3f-5d6eb45a95b7)
+
+![image](https://github.com/user-attachments/assets/2eefbbbe-9f14-4b32-ac22-71a5c470898b)
+
+firmware.hex
+![image](https://github.com/user-attachments/assets/42cbe7a5-2a3e-439d-8a26-f19f834a3a0d)
+
+firmware32.hex
+![image](https://github.com/user-attachments/assets/c3dee93c-2875-47bb-a297-6aea6c05b7a1)
+
+
+
+
+
+
 
 
 
