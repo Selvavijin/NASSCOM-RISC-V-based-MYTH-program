@@ -334,18 +334,6 @@ firmware.hex
 firmware32.hex
 ![image](https://github.com/user-attachments/assets/c3dee93c-2875-47bb-a297-6aea6c05b7a1)
 
-
-
-
-
-
-
-
-
-
-
-
-
 RV Day 3 - Digital Logic with TL-Verilog and Makerchip  
 RV-D3SK1 - Combinational logic in TL-Verilog using Makerchip  
 RV_D3SK1_L0_Welcome  
@@ -520,4 +508,16 @@ RV Day 3 Wrap-up
 ![image](https://github.com/user-attachments/assets/fb901476-6e7e-45dd-b7f7-ee37e4d8ec08)
 
 ![image](https://github.com/user-attachments/assets/3c632bf1-7c92-428c-9960-592be1e4f627)
+
+RV Day 4 - Basic RISC-V CPU micro-architecture  
+RV-D4SK1 - Introduction to Simple RISC-V Micro-architecture  
+RV_D4SK1_L1_Micro-architecture of Single Cycle RISC-V CPU  
+
+The program counter is our pointer and it is pointed into the instruction memory into the instruction that we going to execute. The output of the instruction memory is the instruction. First we decode the instruction using decoder for finding what that instruction does.
+
+![image](https://github.com/user-attachments/assets/573c9c59-5dc4-4d2d-a357-01a82f2f37bf)
+
+RV_D4SK1_L2_Starting Point Code for RISC-V Labs Part-1  
+
+![image](https://github.com/user-attachments/assets/fb94a70c-2a53-41a3-9f71-59e9c31367c9)
 
