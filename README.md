@@ -184,6 +184,51 @@ In riscv we have 32 registers and the width of the register is defined by a keyw
 
 ![image](https://github.com/user-attachments/assets/6f913e56-8f73-438f-b328-28c3fd3cafc4)
 
+RV_D2SK1_L2_Memory Allocation For Double Words
+
+Why there is only 32 registers?.  Now let us consider the 64 bit registers. There are 2 ways to load this 64 bit data to the registers. One is, directly we can load the data into the register. Else we can load the data in the memory and from the memory we can load it into the register.   
+Let us see how to load this data to the memory and it is shown below. First byte from the LSB is stored in the below register and the other bytes follows it. This structure of the memory system is called as 'little-endian' memory addressing system and RISCV belongs to this category. There is also another memory addressing system called 'big-endian', where the Most significant Byte will be stored in the below register and the other bytes follow it. 'little-endian' memory addressing system is the reverse of 'big-endian'.
+
+![image](https://github.com/user-attachments/assets/04845b6b-7538-4535-b9ae-9ca3d4a119e8)
+
+The address of the below shown entire double word is m[0], the address of next double word that we load will be m[8] and so on. So, it is a multiple of 8.
+
+![image](https://github.com/user-attachments/assets/9c65f168-97b6-42c6-823f-3104218906db)
+
+Lets see an example of an array which holds 3 double word. And the 3rd double word is shown below, which has the LSB at m[16] and MSB at m[23]. In this case, how will we load the double word in the register?. For that, we need some basic ISA commands and will look into it.
+
+![image](https://github.com/user-attachments/assets/0613fc61-bcb6-455f-8eff-6db9132e3f41)
+
+RV_D2SK1_L3_Load, Add And Store Instructions With Example
+
+Our objective is to store the below mentioned data in any one of the registers, lets take x8. If we want to access this data from the memory, we need the first address of that particular memory. So, we store the base address of this entire memory in one register(x23). Lets keep it simple by having the base address as 0. '16(x23)' means, 16 will loaded into the contents of x23 register, which means, the base address 0 is replaced by 16. 'ld' means load double word. This is how the 64-bit data will be loaded into the x8 register. 
+
+![image](https://github.com/user-attachments/assets/261485a6-3000-432d-940a-db94ab5a08c9)
+
+Now let us see how this command is represented inside the computer. All the instructions in the riscv are 32 bit though it is 64 bit for the registers. The bits 0 to 6 and 12 to 14 forms the opcode of the 'ld'. Opcode is a code which instructs the computer to use 'ld'. Bits 15 to 19 are used to represent the rs1. Based on the combination of 5 bits we will get the value 23(in this case). Bits 7 to 11 is used to represent rd which is 8(01000) in this case. 16 will be loaded to the bits 20 to 31.
+
+![image](https://github.com/user-attachments/assets/6310597b-ca7e-4a05-b63e-1856f7ee8712)
+
+Lets see another command. If we want to add the double word with the contents of x24, we need to use 'add' command.
+
+![image](https://github.com/user-attachments/assets/8a34bf54-5881-49b5-94df-34ee21418f92)
+
+The way we instruct the computer to execute this command is shown below. Here, opcode, funct3 and funct7 are used to form the opcode of 'add' instruction.
+
+![image](https://github.com/user-attachments/assets/a6ad0881-9966-4c22-a45d-5689225f7f9e)
+
+Now lets see the another command to store the data from the register to the memory and it can be done using 'sd' store doubleword command. Here, the memory locations 16 to 23 are already occupied, so lets see the free locations and store data. Since we have only 32 registers, we have to load and store the data to the memory, because memory is the place where we have space to store. 'data register rs2' is the register which stores data.
+
+![image](https://github.com/user-attachments/assets/994c7955-6dd9-4913-9fd4-ffff60dafb2a)
+
+Here the opcode and func3 are used to execute the 'sd'command. the offset'imm' will be split and stored in immediate[11:5] and immediate[5:0].
+
+![image](https://github.com/user-attachments/assets/d0ab665e-67d2-49cf-959c-47eda1cf46bf)
+
+
+
+
+
 
 
 
