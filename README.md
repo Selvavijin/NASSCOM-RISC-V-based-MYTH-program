@@ -225,11 +225,55 @@ Here the opcode and func3 are used to execute the 'sd'command. the offset'imm' w
 
 ![image](https://github.com/user-attachments/assets/d0ab665e-67d2-49cf-959c-47eda1cf46bf)
 
+RV_D2SK1_L4_Concluding 32-registers And Their Respective ABI Names
+
+All the instructions that we saw will operate on integers(signed or unsigned). These instructions are called base integer instructions. Any cpu that use this 47(total) base integer instructions are called RV64I. There are multiple classifications inside the base integer instructions. The instructions which act only on registers are called R-type instructions Eg: 'add'.
+
+![image](https://github.com/user-attachments/assets/2250f20c-c0db-4a5c-9ed7-958354e01c40)
+
+The instructions which operate on registers and an immediate are called I-type registers Eg: 'ld'.
+
+![image](https://github.com/user-attachments/assets/d33a3608-bf79-4d8e-9b08-34932c19a111)
+
+The insturctions which operate on source register and immediate are called S-type registers and are used for store purpose Eg: 'sd'
+
+![image](https://github.com/user-attachments/assets/b66b4328-155d-4584-b646-3932359d9423)
+
+If we look into all the cases, we represent the registers using 5 bits. So, maximum we can have **2^5=32 registers**.
+
+![image](https://github.com/user-attachments/assets/2a09c1c8-a31c-4937-9d6f-a62bf3252c11)
+
+For each registers, an ABI name will be given through which the ABI will access the internal registers of the riscv cpu core using some system call functions.
+
+![image](https://github.com/user-attachments/assets/4e791a2e-efad-4fdb-b13a-fca2508f1b6d)
+
+![image](https://github.com/user-attachments/assets/7ddebe59-1895-429a-a9f0-fc8352525994)
 
 
+RV-D2SK2 - Lab work using ABI function calls  
+RV_D2SK2_L1_Study New Algorithm For Sum 1 to N Using ASM  
 
+Now, using the C program we are going to make some function calls to the assembly language program in the riscv and do some computations and send the final result to the C program. The arguments will be passed to ASM using the a0 and a1 registers and returned to C program using a0 register.
 
+![image](https://github.com/user-attachments/assets/8f96e466-53b8-4b6b-8b6a-0d1a0a391b8d)
 
+We can use any register between a0 and a7. We initialize the registers a4 and a3 to 0. We store the count 10, which came from a1, to the register a2.
+
+![image](https://github.com/user-attachments/assets/c951d918-dc87-4a0d-9fc6-7e67119ee350)
+
+RV_D2SK2_L2_Review ASM Function Call
+
+Now we have to write 2 codes, one in C(.c) and its ASM(.S).
+
+![image](https://github.com/user-attachments/assets/2084c9ea-d621-4a2d-a865-b8b50180b5f6)
+
+![image](https://github.com/user-attachments/assets/0d59362f-5747-4b89-a9cb-5881f61e475c)
+
+![image](https://github.com/user-attachments/assets/5a70eed0-6ee8-4786-8931-8dbff60e4387)
+
+RV_D2SK2_L3_Simulate New C Program With Function Call
+
+![image](https://github.com/user-attachments/assets/f23430fa-9a3c-476d-96a9-ba79777d71a3)
 
 
 
