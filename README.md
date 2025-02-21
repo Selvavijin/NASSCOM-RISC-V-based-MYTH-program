@@ -138,7 +138,51 @@ Instructions which operate on these kind of numbers are called Base integer inst
 
 ![image](https://github.com/user-attachments/assets/64cc35e5-8c58-410f-ad5c-23c3bf14bc99)
 
+RV_D1SK3_L3_Lab For Signed And Unsigned Numbers
 
+![image](https://github.com/user-attachments/assets/bf80b185-55d7-4f04-b28c-91120924278b)
+
+My works
+![image](https://github.com/user-attachments/assets/dd3744b3-cabf-4021-b01f-e4bf43ec3523)
+
+![image](https://github.com/user-attachments/assets/efb65317-8c10-4031-9c43-8deb9c3c6404)
+
+![image](https://github.com/user-attachments/assets/8c215125-f33c-46c2-b360-ea4de0ba8892)
+
+![image](https://github.com/user-attachments/assets/e2b95c7d-d0e5-4ee8-a2eb-e40e41b052cb)
+
+![image](https://github.com/user-attachments/assets/cd5f8eca-862d-4e90-9bec-6aeb06ffe873)
+
+![image](https://github.com/user-attachments/assets/c093310f-f7de-4c91-8629-091a691ee8c5)
+
+RV Day 2 - Introduction to ABI and basic verification flow  
+RV-D2SK1 - Application Binary interface (ABI)  
+RV_D2SK1_L1_Introduction To Application Binary Interface  
+
+![image](https://github.com/user-attachments/assets/0505fcd3-6d1d-4e58-a478-01941ea9a6de)
+
+![image](https://github.com/user-attachments/assets/60a853d1-da9a-4a8e-94df-49d38c153859)
+
+If we want to present this architecture of the building to the user, the interface is appearance. Right now, the details such as plumbing are not required for the users. 
+
+![image](https://github.com/user-attachments/assets/11e41e1c-4b46-447e-aab2-43255dd13c7b)
+
+Similarly, in case of the computer, the interface is apperance and functionality. The details such as processors and other things are not highly required at the very beginning.
+
+![image](https://github.com/user-attachments/assets/4598561d-7ebc-4400-a446-4ed907034e6c)
+
+Similarly, If we want the email application program to run on the hardware, there are multiple layers inbetween and one of them is ABI. Java or C or other languages are used to build this application program. In the process of reaching the hardware, the applcation program will access the operation system through the standard libraries. The interface between the OS and the machine language is ISA(can be riscv or any other thing). This particular ISA is accessible to the operating system and to the user directly and they are called user and system ISA and user ISA. In this case the user is the Application programmer(the person who program email).  
+There is also a way for the application program to access some of the hardware resources of the this OS directly, and the way it does is through the system call, which means the application programmer can directly access the registers of the riscv architecture via system calls. This interface is called ABI(also called system call interface).
+
+![image](https://github.com/user-attachments/assets/3521f32c-d22a-456d-aea7-506d6a4eb292)
+
+ The application programmer can access the hardware resources via registers.
+
+ ![image](https://github.com/user-attachments/assets/c7cccb2d-9c65-40d7-a92c-b3f06347a8cb)
+
+In riscv we have 32 registers and the width of the register is defined by a keyword called XLEN-1. Now we will get questions like, Why we need 32 registers and why 64 bits?
+
+![image](https://github.com/user-attachments/assets/6f913e56-8f73-438f-b328-28c3fd3cafc4)
 
 
 
