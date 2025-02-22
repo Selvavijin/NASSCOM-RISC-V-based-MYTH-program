@@ -594,4 +594,7 @@ Now we are using the instructions that are highly required for our purpose and i
 My work
 ![image](https://github.com/user-attachments/assets/af23be79-9385-408d-91ec-dceda9622006)
 
+RV_D4SK3_L1_Lab For Register File Read Part1 (USE UPDATED SHELL CODE)
+
+rd -> destination register  
 
