@@ -553,3 +553,45 @@ RV_D4SK2_L2_Lab For Instruction Fetch Logic
 ![image](https://github.com/user-attachments/assets/edceaafe-109a-48ae-82af-243c279d7cc8)
 
 ![image](https://github.com/user-attachments/assets/24caa7da-5b23-4db3-82c6-48ce92bd13dd)
+
+RV_D4SK2_L3_Lab For RV Instruction Types IRSBJU Decode Logic
+
+![image](https://github.com/user-attachments/assets/11346074-437a-4589-a3db-0318bd5cceb2)
+
+My work
+![image](https://github.com/user-attachments/assets/e0cd909a-6d45-4ed1-a416-0ebad896ae56)
+
+RV_D4SK2_L4_Lab For Instruction Immediate Decode Logic For RV-ISBUJ
+
+Now we will see from where the immediate value will be taken for different instructions.
+
+![image](https://github.com/user-attachments/assets/617c3b5f-0c04-4a52-a064-ece07330057c)
+
+My work
+![image](https://github.com/user-attachments/assets/61596b96-500f-42c0-a35c-e9cd58a9fbf8)
+
+RV_D4SK2_L5_Lab To Decode other Fields of Instructions For RV-ISBUJ
+
+![image](https://github.com/user-attachments/assets/9079c6f8-9ac8-4e90-8d0b-2cae88951f3b)
+
+My work
+![image](https://github.com/user-attachments/assets/051be781-289c-41ed-8b60-e93d06c03abd)
+
+RV_D4SK2_L6_Lab To Decode Instruction Field Based on Instr Type RV-ISBUJ
+
+![image](https://github.com/user-attachments/assets/0f1a7a26-e05b-4207-88f6-09150e347c28)
+
+My work
+![image](https://github.com/user-attachments/assets/efff7143-d80a-4540-b6a8-5970abc9311a)
+
+RV_D4SK2_L7_Lab To Decode Individual Instruction
+
+The code "`BOGUS_USE" is used to say the computer that "it is ok, if the other signals present are not used", which is used used to avoid warings in log. It is the SV macro.  
+Now we are using the instructions that are highly required for our purpose and ignoring other instructions now.
+
+![image](https://github.com/user-attachments/assets/e6bb4561-827f-48ca-b44c-39f3dba3c4c0)
+
+My work
+![image](https://github.com/user-attachments/assets/af23be79-9385-408d-91ec-dceda9622006)
+
+
