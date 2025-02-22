@@ -594,7 +594,37 @@ Now we are using the instructions that are highly required for our purpose and i
 My work
 ![image](https://github.com/user-attachments/assets/af23be79-9385-408d-91ec-dceda9622006)
 
-RV_D4SK3_L1_Lab For Register File Read Part1 (USE UPDATED SHELL CODE)
+RV-D4SK3 - RISC-V control logic  
+RV_D4SK3_L1_Lab For Register File Read Part1 (USE UPDATED SHELL CODE)  
 
 rd -> destination register  
+
+![image](https://github.com/user-attachments/assets/e4574905-a4e9-4415-9682-5a2f69a2f41a)
+
+![image](https://github.com/user-attachments/assets/0948859e-ba53-4118-87af-4b209d47d347)
+
+RV_D4SK3_L2_Lab For Register File Read Part-2
+
+Assign these two names mentioned below to the output of the register files.
+
+![image](https://github.com/user-attachments/assets/44d69f7f-0441-4680-923e-ef5ba706e6a1)
+
+RV_D4SK3_L3_Lab For ALU Operations For add/addi
+
+![image](https://github.com/user-attachments/assets/3109f2fc-4d6e-4e7b-aac3-8aace8ba9241)
+
+My work
+![image](https://github.com/user-attachments/assets/a1da0d20-f056-4193-8c2c-1fbd81f33057)
+
+RV_D4SK3_L4_Lab For Register File Write
+
+![image](https://github.com/user-attachments/assets/e09a4a39-f02a-426b-9eba-fc21868c872f)
+
+![image](https://github.com/user-attachments/assets/c2850f94-2479-452d-a8a7-74df4ee3e1ac)
+
+RV_D4SK3_L5_Concept of Array And Register File Details
+
+![image](https://github.com/user-attachments/assets/d1a67c08-7746-43c6-94f7-d642dcd3fa04)
+
+![image](https://github.com/user-attachments/assets/f204ca94-55e1-4a3b-bd51-063834e77f56)
 
