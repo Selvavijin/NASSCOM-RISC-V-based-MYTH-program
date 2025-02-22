@@ -530,3 +530,26 @@ RV_D4SK1_L2_Starting Point Code for RISC-V Labs Part-1
 
 ![image](https://github.com/user-attachments/assets/fb94a70c-2a53-41a3-9f71-59e9c31367c9)
 
+RV_D4SK1_L3_Starting Point Code for RISC-V Labs Part-2
+
+![image](https://github.com/user-attachments/assets/c4be2923-123b-4ae2-9b08-09867e75b0e2)
+
+![image](https://github.com/user-attachments/assets/26b63ef1-16bf-441c-90b0-2661ace7fda9)
+
+![image](https://github.com/user-attachments/assets/90247bd6-092d-419f-beba-914d483f039a)
+
+RV-D4SK2 - Fetch and decode  
+RV_D4SK2_L1_Implementation Plan and Lab for PC  
+
+We will implement the cpu as mentioned in the below diagram.
+
+![image](https://github.com/user-attachments/assets/2390c907-ee85-4b7f-ab9d-d84e8c6b57a3)
+
+My work
+![image](https://github.com/user-attachments/assets/18a48b1a-5e6d-46d4-942c-2832146e037a)
+
+RV_D4SK2_L2_Lab For Instruction Fetch Logic
+
+![image](https://github.com/user-attachments/assets/edceaafe-109a-48ae-82af-243c279d7cc8)
+
+![image](https://github.com/user-attachments/assets/24caa7da-5b23-4db3-82c6-48ce92bd13dd)
