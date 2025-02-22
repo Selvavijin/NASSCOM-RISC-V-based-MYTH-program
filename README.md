@@ -522,7 +522,7 @@ RV Day 4 - Basic RISC-V CPU micro-architecture
 RV-D4SK1 - Introduction to Simple RISC-V Micro-architecture  
 RV_D4SK1_L1_Micro-architecture of Single Cycle RISC-V CPU  
 
-The program counter is our pointer and it is pointed into the instruction memory into the instruction that we going to execute. The output of the instruction memory is the instruction. First we decode the instruction using decoder for finding what that instruction does.
+The below shown is the micro architecture for the riscv implementation. The program counter is our pointer and it is pointed into the instruction memory into the instruction that we going to execute. The output of the instruction memory is the instruction. First we decode the instruction using decoder for finding what that instruction does. The adder present here compute the next pc. The addes uses the incremented pc value and the immediate offset from the decoder. Most instructions are arithmatic instructions operating on source registers. So, we have two source registers RFRD as shown in the below diagram. Here ALU is the calculator that we coded already. We also have memory Dmem, which stores the data or load the data. For storing the data, we get the source address and the immediate offset added up. The store data will write data to memory.
 
 ![image](https://github.com/user-attachments/assets/573c9c59-5dc4-4d2d-a357-01a82f2f37bf)
 
