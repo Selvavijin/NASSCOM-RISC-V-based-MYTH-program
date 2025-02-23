@@ -628,3 +628,16 @@ RV_D4SK3_L5_Concept of Array And Register File Details
 
 ![image](https://github.com/user-attachments/assets/f204ca94-55e1-4a3b-bd51-063834e77f56)
 
+RV_D4SK3_L6_Lab For Implementing Branch Instructions
+
+![image](https://github.com/user-attachments/assets/17236023-6846-4028-bdd4-00bf572484e0)
+
+My work
+![image](https://github.com/user-attachments/assets/7c254f2d-a51e-4e17-b380-a3acfd84576d)
+
+RV_D4SK3_L7_Lab For Completing Branch Instruction Implementation
+
+![image](https://github.com/user-attachments/assets/52672ce2-d174-42c9-a111-c244bfd329da)
+
+My work
+![image](https://github.com/user-attachments/assets/2ef7652f-5e79-4b4a-a034-0a0f10f5c5f0)
