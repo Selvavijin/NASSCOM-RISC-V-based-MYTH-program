@@ -644,3 +644,37 @@ My work
 
 RV_D4SK3_L8_Lab To Create Simple Testbench
 
+![image](https://github.com/user-attachments/assets/62032b07-81a9-4e89-866c-0d754fbdf2dd)
+
+RV Day 5 - Complete Pipelined RISC-V CPU micro-architecture  
+RV-D5SK1 - Pipelining the CPU  
+RV_D5SK1_L1_Introduction To Control Flow Hazard And Read After Write Hazard  
+
+Finally we are going to add pipeline to our CPU. With verilog it is very difficult. But, with TL verilog, it is easy.
+
+![image](https://github.com/user-attachments/assets/51a2c694-b183-4218-a9b2-834508a7c59a)
+
+![image](https://github.com/user-attachments/assets/45dba3a4-5513-4b33-8485-88d89c35f123)
+
+![image](https://github.com/user-attachments/assets/201cd3ce-c8e6-40da-ac34-425056c11635)
+
+Hazards : The problems with the time. the branch control comes at @3 and it has to connected to the pc. Similarly the read operation can be performed after the write operation.
+
+![image](https://github.com/user-attachments/assets/427e2d6b-c60f-41df-ace1-774cdae9ed88)
+
+RV_D5SK1_L2_Lab To Create 3-Cycle Valid Signal
+
+![image](https://github.com/user-attachments/assets/b96944f3-888c-43e0-96ac-a96277390c78)
+
+![image](https://github.com/user-attachments/assets/5fadc762-c556-4ef2-bd15-55ac2b7e34e2)
+
+![image](https://github.com/user-attachments/assets/8d3801d0-282a-40c9-ae81-aff13d534ef4)
+
+![image](https://github.com/user-attachments/assets/561e9f7b-884d-45b2-92ac-38621ab31cbc)
+
+My work
+![image](https://github.com/user-attachments/assets/682622ad-999a-4bc9-a85d-47664c6c7a3d)
+
+RV_D5SK1_L3_Lab To Code 3-Cycle RISC-V To Take Care Of Invalid Cycles
+
+
