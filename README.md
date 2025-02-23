@@ -677,4 +677,12 @@ My work
 
 RV_D5SK1_L3_Lab To Code 3-Cycle RISC-V To Take Care Of Invalid Cycles
 
+![image](https://github.com/user-attachments/assets/44ef1630-ce26-42a0-9712-ac9ba17cc4b0)
+
+My work
+![image](https://github.com/user-attachments/assets/173ee7e0-2cba-4f53-966a-ed37cd59848d)
+
+RV_D5SK1_L4_Lab To Modify 3-Cycle RISC-V To Distribute Logic
+
+![image](https://github.com/user-attachments/assets/60bb7899-7706-497a-80e2-7dae04dcb1f0)
 
