@@ -686,3 +686,10 @@ RV_D5SK1_L4_Lab To Modify 3-Cycle RISC-V To Distribute Logic
 
 ![image](https://github.com/user-attachments/assets/60bb7899-7706-497a-80e2-7dae04dcb1f0)
 
+RV-D5SK2 - Solutions to Pipeline Hazards  
+RV_D5SK2_L1_Lab For Register File Bypass To Address Rd-After-Wr Hazard  
+
+![image](https://github.com/user-attachments/assets/3f67fb85-e595-405e-94fd-4469b3415838)
+
+![image](https://github.com/user-attachments/assets/02b1fbde-ce6b-48fa-a9c6-5a116a7df8e5)
+
