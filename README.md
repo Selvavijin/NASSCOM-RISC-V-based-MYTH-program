@@ -693,3 +693,11 @@ RV_D5SK2_L1_Lab For Register File Bypass To Address Rd-After-Wr Hazard
 
 ![image](https://github.com/user-attachments/assets/02b1fbde-ce6b-48fa-a9c6-5a116a7df8e5)
 
+RV_D5SK2_L2_Lab For Branches To Correct The Branch Target Path
+
+![image](https://github.com/user-attachments/assets/196d4770-925e-4b51-bfce-9a47418b69aa)
+
+![image](https://github.com/user-attachments/assets/cef3f8eb-7951-4e7e-a0af-243790f9ebf8)
+
+![image](https://github.com/user-attachments/assets/7ee9b331-6f79-4cfc-80e4-a215f7eabd8c)
+
