@@ -701,3 +701,16 @@ RV_D5SK2_L2_Lab For Branches To Correct The Branch Target Path
 
 ![image](https://github.com/user-attachments/assets/7ee9b331-6f79-4cfc-80e4-a215f7eabd8c)
 
+RV_D5SK2_L3_Lab To Complete Instruction Decode Except Fence, Ecall, Ebreak
+
+![image](https://github.com/user-attachments/assets/967ccde2-e8cc-46c8-8116-251151f543f1)
+
+My work
+![image](https://github.com/user-attachments/assets/ea06ff07-c3b8-4a97-98c4-72c1f04d0a13)
+
+RV_D5SK2_L4_Lab To Code Complete ALU
+
+![image](https://github.com/user-attachments/assets/b9b7ac61-ae2c-4648-9288-7e7660f4b05f)
+
+My work
+![image](https://github.com/user-attachments/assets/e18efab9-6609-4c91-8ec7-9f5d9df54af6)
