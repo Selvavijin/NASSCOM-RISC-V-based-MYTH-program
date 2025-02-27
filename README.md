@@ -714,3 +714,18 @@ RV_D5SK2_L4_Lab To Code Complete ALU
 
 My work
 ![image](https://github.com/user-attachments/assets/e18efab9-6609-4c91-8ec7-9f5d9df54af6)
+
+RV-D5SK3 - Load/Store Instructions and Completing RISC-V CPU  
+RV_D5SK3_L1_Introduction To Load Store Instructions And Lab To Redirect Loads  
+
+![image](https://github.com/user-attachments/assets/58454c9d-aed0-48bf-b7d8-78af4c51f0d3)
+
+![image](https://github.com/user-attachments/assets/7bfe3d47-1835-42dd-909b-7f900f4626ae)
+
+![image](https://github.com/user-attachments/assets/d9df2d1f-c617-406a-8cfd-bf2a54ae22ec)
+
+![image](https://github.com/user-attachments/assets/346e1e38-57b2-4915-afe8-c71f19f07ad7)
+
+RV_D5SK3_L2_Lab To Load Data From Memory To Register File
+
+![image](https://github.com/user-attachments/assets/6d51d4d9-0931-4cb0-aa99-6985cc35fa9f)
